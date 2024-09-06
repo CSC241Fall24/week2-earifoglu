@@ -20,18 +20,18 @@ public class Q1WeirdFunction {
         else {
             int res = 0;
             int i = 0;
-            for(i = n; i >= n - 3; i--) {
+            for(i = n; i >= 3; i--) {
                 
             }
             res += i;
             i = 0;
-            for(i = n; i >= n - 3; i-= 2) {
+            for(i = n; i >= 3; i-= 2) {
                 
 
             }
             res += 2 * i;
             i = 0;
-            for(i = n; i >= n - 3; i-= 3) {
+            for(i = n; i >= 3; i-= 3) {
                 
 
             }
