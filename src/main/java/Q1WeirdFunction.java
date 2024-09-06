@@ -4,11 +4,38 @@ public class Q1WeirdFunction {
 
     public static int fRecursive(int n) {
         // TODO: Implement the recursive function
-        return 0;
+        if(n < 3) {
+            return n;
+        }
+        else {
+            return fRecursive(n-1) + 2 * fRecursive(n-2) + 3 * fRercursive(n-3);
+        }
     }
 
     public static int fIterative(int n) {
         // TODO: Implement the iterative function
-        return 0;
+        if(n < 3) {
+            return n;
+        }
+        else {
+            int res = 0;
+            int i = 0;
+            for(int i = n; i >= n - 3; i--) {
+                
+            }
+            res += i;
+            int i = 0;
+            for(i = n; i >= n - 3; i-= 2) {
+                
+
+            }
+            res += 2 * i;
+            int i = 0;
+            for(i = n; i >= n - 3; i-= 3) {
+                
+
+            }
+            res += 3 * i;
+        }
     }
 }
