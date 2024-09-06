@@ -8,7 +8,7 @@ public class Q1WeirdFunction {
             return n;
         }
         else {
-            return fRecursive(n-1) + 2 * fRecursive(n-2) + 3 * fRercursive(n-3);
+            return fRecursive(n-1) + 2 * fRecursive(n-2) + 3 * fRecursive(n-3);
         }
     }
 
@@ -24,13 +24,13 @@ public class Q1WeirdFunction {
                 
             }
             res += i;
-            int i = 0;
+            i = 0;
             for(i = n; i >= n - 3; i-= 2) {
                 
 
             }
             res += 2 * i;
-            int i = 0;
+            i = 0;
             for(i = n; i >= n - 3; i-= 3) {
                 
 
