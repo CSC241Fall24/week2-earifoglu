@@ -20,7 +20,7 @@ public class Q1WeirdFunction {
         else {
             int res = 0;
             int i = 0;
-            for(int i = n; i >= n - 3; i--) {
+            for(i = n; i >= n - 3; i--) {
                 
             }
             res += i;
