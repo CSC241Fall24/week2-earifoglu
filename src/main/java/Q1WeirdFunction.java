@@ -36,6 +36,7 @@ public class Q1WeirdFunction {
 
             }
             res += 3 * i;
+            return res;
         }
     }
 }
