@@ -38,21 +38,22 @@ public class Q1WeirdFunction {
                     i++;
                 }
                 else {
-                    funcNums.set(i - 1, funcNums.get(i - 1)++);
-                    if(funcNums.get(i) == 1){
+                    
+                    if(funcNums.get(i - 1) == 1){
                         res += n;
                         n++;
                     }
-                    else if(funcNums.get(i) == 2) {
+                    else if(funcNums.get(i - 1) == 2) {
                         res += 2 * n
                         n += 2;
                     }
-                    else if(funcNums.get(i) == 3) {
+                    else if(funcNums.get(i - 1) == 3) {
                         res += 3 * n
                         n += 3
                     }
-                    
-                    if(funcNums.get(i - 1) + 1 == 4) {
+
+                    funcNums.set(i - 1, funcNums.get(i - 1) + 1);
+                    if(funcNums.get(i - 1) == 3) {
                         funcNums.remove(i - 1);
                     
                         i--;
