@@ -10,7 +10,7 @@ public class Q4ReverseString {
         } 
         else {
             return s.charAt(1) + s.charAt(0);
-        
+        }
         
 
         
