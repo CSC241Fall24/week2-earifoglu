@@ -1,5 +1,5 @@
 // src/main/java/Q1WeirdFunction.java
-import ArrayList from java.util.Arrays;
+import java.util.ArrayList;
 public class Q1WeirdFunction {
     
     public static int fRecursive(int n) {
