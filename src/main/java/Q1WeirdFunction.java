@@ -19,7 +19,6 @@ public class Q1WeirdFunction {
         }
             
         int i = 0;
-        boolean haveUpdatedi = false;
         ArrayList<Integer> funcNums = new ArrayList<Integer>();
         int res = 0;
 
@@ -39,9 +38,6 @@ public class Q1WeirdFunction {
                 }
                 if(n >= 3) {
                     i++;
-                    if(!haveUpdatedi) {
-                        haveUpdatedi = true;
-                    }
                 }
 
             }
