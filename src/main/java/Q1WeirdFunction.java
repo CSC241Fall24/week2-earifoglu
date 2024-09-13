@@ -43,7 +43,7 @@ public class Q1WeirdFunction {
                 funcNums.set(i, funcNums.get(i) + 1);
             }
             else if(funcNums[i] == 2) {
-                res +=  2 * n;
+                res += 2 * n;
                 n += 2;
                 funcNums.set(i, funcNums.get(i) + 1);
             }
