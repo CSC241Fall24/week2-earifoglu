@@ -8,7 +8,9 @@ public class Q4ReverseString {
         if(s.length() > 1) {
             return s.charAt(s.length() - 1)  + reverse(s.substring(0, s.length() - 1));
         } 
-        
+        else {
+            return "" + s.charAt(0);
+        }
         
 
         
