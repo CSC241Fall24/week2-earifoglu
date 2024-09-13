@@ -12,7 +12,9 @@ public class Q2PrintArray {
         if(i > 0) {
             printRecursion(i - 1);
         } 
-        System.out.println(array[i]);
+        if(i <= 6) {
+            System.out.println(array[i]);
+        }
         
     }
 }
