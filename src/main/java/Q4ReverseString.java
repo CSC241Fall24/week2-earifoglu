@@ -9,7 +9,7 @@ public class Q4ReverseString {
             return s.charAt(s.length() - 1)  + reverse(s.substring(0, s.length() - 1));
         } 
         else {
-            return "" + s.charAt(1) + s.charAt(0);
+            return "" + s.charAt(0);
         }
         
 
