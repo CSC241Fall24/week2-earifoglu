@@ -1,5 +1,5 @@
 // src/main/java/Q1WeirdFunction.java
-import ArrayList from java.util.ArrayList;
+import ArrayList from java.util.Arrays;
 public class Q1WeirdFunction {
     
     public static int fRecursive(int n) {
@@ -63,9 +63,17 @@ public class Q1WeirdFunction {
                             funcNums.set(i, funcNums.get(i) + 1);
                             break;
                         }
+                        else if(funcNums[i] == 2) {
+                            n += 2;
+                            funcNums.set(i, funcNums.get(i) + 1);
+                        }
                     }
+                }
+                if(funcNums[i] == 3 && funcNums.size() == 1) {
+                    break;
                 }
             }
         }
+        return res;
     }
 }
