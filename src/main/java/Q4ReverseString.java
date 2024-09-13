@@ -10,8 +10,8 @@ public class Q4ReverseString {
             
         } 
         else {
-            System.out.println(s);
-            return "" + s.charAt(1);
+            System.out.println(s + "hi");
+            return "" + s.charAt(0);
         }
         
 
