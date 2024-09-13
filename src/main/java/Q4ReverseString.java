@@ -11,7 +11,7 @@ public class Q4ReverseString {
         } 
         else {
             System.out.println(s);
-            return "" + s.charAt(0);
+            return "" + s.charAt(1);
         }
         
 
