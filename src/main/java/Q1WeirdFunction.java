@@ -59,16 +59,14 @@ public class Q1WeirdFunction {
                 else if(funcNums.get(i) == 3) {
                     res += 3 * n;
                     n += 3;
-                    funcNums.remove(i);
-                    if(haveUpdatedi) {
-                        i--;
-                    }
+                    funcNums.set(i, funcNums.get(i) + 1);
                     
                     
                     while(true) {
-                        if(funcNums.get(i) == 3) {
+                        if(funcNums.get(i) == 4) {
                             n += 3;
                             funcNums.remove(i);
+                            i--;
                         }    
                         else {
                             if(funcNums.get(i) == 1) {
