@@ -71,7 +71,7 @@ public class Q1WeirdFunction {
                             }
                         }
                     }
-                    if(funcNums.get(i) == 3 && funcNums.size() == 1) {
+                    if(funcNums.size() == 1) {
                         break;
                     }
                 }
