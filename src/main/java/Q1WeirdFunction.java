@@ -67,6 +67,9 @@ public class Q1WeirdFunction {
                             n += 3;
                             funcNums.remove(i);
                             i--;
+                            if(funcNums.size() == 0) {
+                                break;
+                            }
                         }    
                         else {
                             if(funcNums.get(i) == 1) {
