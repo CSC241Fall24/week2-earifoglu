@@ -14,7 +14,12 @@ public class Q1WeirdFunction {
     
     public static int fIterative(int n) {
         // TODO: Implement the iterative function
+        if(n < 3) {
+            return n;
+        }
+            
         int i = 0;
+        boolean haveUpdatedi = false;
         ArrayList<Integer> funcNums = new ArrayList<Integer>();
         int res = 0;
 
@@ -34,6 +39,9 @@ public class Q1WeirdFunction {
                 }
                 if(n >= 3) {
                     i++;
+                    if(!haveUpdatedi) {
+                        haveUpdatedi = true;
+                    }
                 }
 
             }
@@ -52,7 +60,11 @@ public class Q1WeirdFunction {
                     res += 3 * n;
                     n += 3;
                     funcNums.remove(i);
-                    i--;
+                    if(haveUpdatedi) {
+                        i--;
+                    }
+                    
+                    
                     while(true) {
                         if(funcNums.get(i) == 3) {
                             n += 3;
