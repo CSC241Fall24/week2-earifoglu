@@ -15,7 +15,7 @@ public class Q1WeirdFunction {
     public static int fIterative(int n) {
         // TODO: Implement the iterative function
         int i = 0;
-        ArrayList<int> funcNums = new ArrayList<int>();
+        ArrayList<Integer> funcNums = new ArrayList<Integer>();
         int res = 0;
 
         if(n >= 3) {
