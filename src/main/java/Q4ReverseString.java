@@ -9,8 +9,10 @@ public class Q4ReverseString {
             return s.charAt(s.length() - 1)  + reverse(s.substring(0, s.length() - 1));
             
         } 
+        else if(s.length() == 0 || s.length() == 1) {
+            return s;
+        }
         else {
-            System.out.println(s + "hi");
             return "" + s.charAt(0);
         }
         
